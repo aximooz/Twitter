@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 100lvh;
+    width: 100lvw;
+
+}
+.login-form
+{
+    display: flex;
+    align-items:flex-start;
+    justify-content:center;
+    flex-direction: column;
+    background-color: aqua;
+    width: 450px;
+    height: 476px;
+    
+}
+.logo-cont
+{
+    display: flex;
+    width: 450px;
+    height: 50px;
+    
+
+}
+.title
+{
+    font-size: 42px;
+    font-family: 'roboto';
+    font-weight: 900;
+    margin-left: 5px;
+    
+}
+.form
+{
+    margin-top: 302px;
+    display: flex;
+    align-items:flex-start;
+    flex-direction: column;
+    margin-bottom: 200px;
+    
+
+}
+input{
+    height: 70px;
+    width: 450px;
+    border-radius: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 25px;
+    font-size: 18px;
+    padding-left: 20px;
+
+}
+input:focus{
+    border-color: rgba(29, 161, 242, 1);
+    outline: none;
+}
+button{
+    height: 60px;
+    width: 450px;
+    border-radius: 76px;
+    background-color: rgba(29, 161, 242, 1);
+    color: white;
+    font-family: 'Segoe UI';
+    border: none;
+    font-size: 18px;
+    margin-left: 3px;
+    cursor: pointer;
+}
+::placeholder
+{
+    font-family: 'Segoe UI';
+   
+    font-weight: 400;
+    font-size: 18px;
+}
+::placeholder:active
+{
+    font-family: 'Segoe UI';
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.linkn
+{
+display: flex;
+
+width: 450px;
+margin-top: 40px;
+justify-content:space-between;
+
+
+
+}
+.linkn a
+{
+    font-family: 'Segoe UI';
+    color: rgba(29, 161, 242, 1);
+    text-decoration: none;
+    font-size: 18px;
+}

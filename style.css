@@ -1,0 +1,156 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.container
+{
+    display: flex;
+  width: 1920px;
+  height: 1080px;
+   
+    
+}
+.right-container
+{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 41px;
+    
+}
+.heading-container
+{
+    font-size: 84px;
+    font-family: 'roboto';
+    font-weight: 900;
+    height: 98px;
+    width: 597px;
+    margin: 57px 0px 0px 0px;
+
+    
+}
+.twitter-banner
+{
+    display: flex;
+    height:1028px;
+    width: 1121px;
+    background-image: url("Assets/page1.png");
+    background-repeat: no-repeat;
+    
+}
+.page1
+{
+    height: 95lvh;
+    width: 900px;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 0px;
+    width:400px;
+
+}
+.twitter
+{
+width: 50px;
+}
+.google, .apple, .email
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    font-family: 'roboto';
+    font-weight: 500;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+    font-size: 20px;
+    margin-bottom: 14px;
+}
+
+
+.bottom
+{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-direction:row;
+    margin-left: 200px;
+    margin-right: 119px;
+    width: 1481px;
+    height: 19px;
+    
+    margin-left: 320px;
+    margin-bottom: 18px;
+}
+.bottom a
+{
+    color: rgba(0, 0, 0, 1);
+    font-family: 'roboto';
+    font-size: 12px;
+    font-weight: 400;
+}
+.right-sub-container
+{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 50px;
+    width: 550px;
+    flex-direction: column;
+}
+.main-heading
+{
+    font-family: 'roboto';
+    font-size: 64px;
+    font-weight:bolder;
+   
+
+}
+.sub-heading-container
+{
+    font-family: 'Roboto';
+    font-size: 42px;
+    font-weight:900;
+    margin-bottom: 10px;
+    height: 39px;
+    width: 343px;
+}
+
+.links
+{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    flex-direction: column;
+    width: 420px;
+    margin-top: 70px;
+}
+a{
+    text-decoration: none;
+    color: rgba(29, 161, 242,1);
+}
+.desc
+{
+    width: 373px;
+    height: 40px;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 400;
+}
+.conf
+{
+    width: 373px;
+    height: 40px;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+}
